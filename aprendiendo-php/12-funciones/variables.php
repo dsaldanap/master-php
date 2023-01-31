@@ -17,10 +17,10 @@ echo $frase;
 function holaMundo(){
     global $frase;
     echo "<h1>$frase</h1>";
-    
+
     $year = 2019;
     echo "<h1>$year</h1>";
-    
+
     return $year;
 }
 
@@ -34,11 +34,11 @@ echo "<br />";
 
 //funciones variables
 
-function buenosDias(){
+function buenasDias(){
     return "<h1>Hola buenos dias<h1>";
 }
 
-function buenaTarde(){
+function buenasTardes(){
     return "<h1>HEY!! que tal ha ido la comida</h1>";
 }
 
@@ -46,7 +46,7 @@ function buenasNoches (){
     return "<h1>¿Te vas a dormir ya? buenas noches!!</h1>";
 }
 
-$horario = "Noches";
+$horario = "Dias";
 
 
 $miFuncion = "buenas".$horario;
