@@ -24,7 +24,6 @@ function holaMundo(){
     return $year;
 }
 
-
 echo holaMundo();
 
 echo "<br />";
@@ -46,8 +45,10 @@ function buenasNoches (){
     return "<h1>¿Te vas a dormir ya? buenas noches!!</h1>";
 }
 
-$horario = "Dias";
-
+//$horario = "Dias";
+/* en la siguiente variable, vamos a pasar por la URL el valode de
+horario entre: Dias, Tardes y Noches */
+$horario = $_GET['horario'];
 
 $miFuncion = "buenas".$horario;
 
