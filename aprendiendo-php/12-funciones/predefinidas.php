@@ -56,7 +56,7 @@ $texto = '   ff   ';
 if(empty(trim($texto))){
     echo 'La variable esta vacia';
 }else{
-    echo 'La variables texto tiene contenido';
+    echo 'La variable texto tiene contenido';
 }
 
 //Contar careacteres de un string
@@ -66,12 +66,20 @@ echo strlen($cadena);
 
 //encontrar caracter
 echo '<br />';
-$cadena = 'La vida es bella';
-echo strpos($cadena, 'vida');
+$frase = 'La vida es bella';
+echo strpos($frase, 'vida');
 
 // Remplazar palabras de un string
 echo '<br />';
-$frase = 'La vida es bella';
+$frase = str_replace("vida", "moto",  $frase);
 
+echo $frase;
+echo "<br/>";
+
+//MAYUSCULAS Y MINUSCULAS
+
+echo strtolower($frase);
+echo "<br/>";
+echo strtoupper($frase);
 
 ?>
