@@ -51,6 +51,8 @@ for ($d = 1; $d <= 10; $d++){
 */
 echo "<hr />";
 
+
+//comentario para prueba de git
 //Ejemplo 3
 
 function calculadora($numero1, $numero2, $negrita = false){
