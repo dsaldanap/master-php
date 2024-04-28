@@ -10,18 +10,17 @@
     - Buscar algun elemento
 */
 
-//funciones
-function mostrarArray($numeracion){
-    
-}
 
-$numeracion = array (13,21,9,33,34,5,8,40);
+$numeracion = array(11,54,98,14,26,36,62,75);
 
-foreach($numeracion as $mostrarNumeracion){
-    echo $mostrarNumeracion . "\n";
-}
+//Recprrer y mstrar array
 
-foreach($numeracion as $resultNum){
+echo "<h1>Recorrer y mostrar array</h1>";
+
+
+
+
+/* foreach($numeracion as $resultNum){
     sort($numeracion);
     echo $resultNum;
-}
+} */
